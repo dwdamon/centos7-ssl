@@ -12,5 +12,4 @@ RUN yum -y install net-tools \
  && yum -y install openssh \
  && yum clean all
 
-ENTRYPOINT [ "/init" ]
 CMD ["/bin/bash"]
